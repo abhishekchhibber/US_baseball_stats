@@ -24,3 +24,10 @@ The analysis answers the following questions:
 * What is the correlation between a manager's tenure, and team's increase in average winning % increase?
 
 _I have used Pandas and Numpy on Python 3.5_   
+
+
+### Limitations of the analysis
+
+* The analysis is done considering only few specific attributes related to managers and teams. It does not take into account other attributes that might have impacted the teams' performances and ranking, directly or indirectly.
+* Correlation between managers' tenure and teams' ranking, and between managers' tenure and teams's winning % does not establish causation. Hence, the analysis cannot confirm if teams' perfomance increased because managers stayed more with the teams, or managers's tenure was increased because the teams were performing well. Further, there can be a third factor establishing cause-effect relationship.
+* For Correlation, I have considered Delta Degree of Freedom (DDOF) = 0 for maximum likelihood estimate.
